@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content=" width=device-width, initial-scale=1.0">
+        <title> OracleR11 Producao </title>
+        <link href="./css/style.css" rel="stylesheet"/>
+        <!--<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">-->
+    </head>
+
+    <body onload = msg_log(null)>
+        <noscript>JavaScript desabilitado! Favor habilitar no seu navegador!</noscript>
+
+        <center>
+
+        <div class="class_titulo">
+            <a href="https://amcomcorp.sharepoint.com/sites/intranet"><img src=".\images\amcom.PNG" alt="Smiley face" style="border:2px solid black" width="150" height="50"></a> 
+            <a href="https://portaldeservicos.ultra.com.br/external_logout_complete.do"><img src=".\images\ultragaz.PNG" alt="Smiley face" style="border:2px solid black" width="150" height="50"></a> 
+            <h1>Buscar log OracleR11 Produção</h1>
+            <!-- <h1 style="text-align: center;">Buscar log OracleR11 Produção</h1>  usando direto na tag-->
+        </div>
+
+        
+        <form name="buscarlog" onsubmit="event.preventDefault(); buscarLog();">
+    
+            <div class="class_parametros">
+                <table>
+                    <tr>
+                        <td>
+                            <label class="class_idreq" for="idrequest">IdRequest:</label> 
+                            <input name="idrequest" type="number" placeholder="Número da requisição do concurrent:">
+                        </td>
+                        <td>
+                            <button type="submit">Download Log!</button>    
+                        </td>
+                        <td> 
+                            <p id="msg_final"> ... </p> 
+                        </td>
+                    </tr>                      
+                </table>
+                
+            </div>
+
+            <br>
+            <br>
+
+            <div class="class_log">
+                <p id="msg_log"> ... extracao do log ...</p>
+            </div>
+
+        <script src=".\js\callpythonscript.js"></script>
+        </form>
+        
+        </center> 
+
+    </body>
+
+</html>

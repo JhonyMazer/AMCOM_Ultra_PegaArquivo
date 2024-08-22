@@ -1,0 +1,12 @@
+
+1.
+C:\TMP\AMCOM_Ultra_PegaArquivo\venv\Scripts\active a venv
+
+2.
+python -m pip install pysftp
+python -m pip install schedule
+python -m pip install cx_Oracle 8.3 (oraclecliente 11.2 to up)
+python -m pip install pysftp --update pip
+python -m pip install --update pip
+
+tudo 32 bits

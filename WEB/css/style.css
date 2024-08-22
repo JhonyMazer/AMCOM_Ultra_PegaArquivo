@@ -1,0 +1,58 @@
+
+body{
+    background-color: white;
+}
+
+h1{
+    color: brown;
+}
+
+p{
+    font-size: 10px;
+}
+
+input{
+height: 20px;
+width: 250px;
+}
+
+button{
+    background-color: green;
+    border: none;
+    color: white;
+    padding: 5px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    margin: 2px 2px;
+    cursor: pointer;
+}
+
+.class_idreq{ 
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+/*#seletor_idreq{} id="seletor_idreq"  uso da class é melhor que seletor*/
+
+div{
+    border: 1px solid gray;
+    margin: 10px;
+}
+
+.class_titulo{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(211, 210, 210);
+}
+
+.class_parametros{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(211, 210, 210);
+}
+
+.class_log{
+    background-color: gray;
+    color: chartreuse;
+    text-align: left;
+    font-size: small;
+}
